@@ -1,0 +1,1 @@
+create table if not exists t_heat_supply (id TIMESTAMP,value FLOAT) tags(city NCHAR(20),zone NCHAR(20),sn NCHAR(20));

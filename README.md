@@ -1,6 +1,17 @@
 # tdengine-demo
 TDengine ORM demo
 
+
+## ORM 框架 
+   [SQLI](http://sqli.xream.io)
+   ```xml        
+       <dependency>
+            <groupId>io.xream.x7</groupId>
+            <artifactId>x7-spring-boot-starter</artifactId>
+            ....
+       </dependency>
+   ```
+
 ## 实体类注解
     public class HeatSupply {
 

@@ -19,7 +19,7 @@ import java.math.BigDecimal;
     private String city;
     @X.Tag
     private String zone;
-    @X.Tag(isKey = true) //isKey 标注sn作为子表名后缀
+    @X.TagTarget // 标注sn作为子表名后缀
     private String sn;
 
     public Long getId() {

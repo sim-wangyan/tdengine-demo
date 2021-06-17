@@ -7,8 +7,7 @@ import java.math.BigDecimal;
 /**
  * @Author Sim
  * TDengine
- * 1. create table if not exists t_heat_supply (id TIMESTAMP,value FLOAT) tags(city NCHAR(20),zone NCHAR(20),sn NCHAR(20));
- * 2. create table if not exists t_heat_supply (id TIMESTAMP,value FLOAT,city NCHAR(20),zone NCHAR(20)) tags(sn NCHAR(20));
+ * 1. create table if not exists t_heat_supply (id TIMESTAMP,value FLOAT,sn NCHAR(20)) tags(city NCHAR(20),zone NCHAR(20));
  */
  public class HeatSupply {
 

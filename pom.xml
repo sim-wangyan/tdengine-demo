@@ -26,6 +26,12 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>io.xream.sqli</groupId>
+                <artifactId>sqli-parent</artifactId>
+                <version>1.5.0.RELEASE</version>
+                <type>pom</type>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

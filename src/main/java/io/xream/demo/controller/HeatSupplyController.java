@@ -5,7 +5,7 @@ import io.xream.demo.service.HeatSupplyService;
 import io.xream.sqli.builder.Criteria;
 import io.xream.sqli.builder.CriteriaBuilder;
 import io.xream.sqli.builder.ReduceType;
-import io.xream.x7.base.util.StringUtil;
+import io.xream.internal.util.StringUtil;
 import io.xream.x7.base.web.ViewEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
